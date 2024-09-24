@@ -1,0 +1,95 @@
+/* Services Page Styling */
+.services-container {
+    text-align: center;
+    padding: 4rem 2rem;
+    background-color: black; /* Secondary color: Beige */
+    font-family: "Lucida Console", "Courier New", monospace;
+  }
+  
+  .services-container h2 {
+    font-size: 2.5rem;
+    color: #2C6E49; /* Primary color: Forest Green */
+    margin-bottom: 3rem;
+    animation: fadeInDown 1s ease-out;
+    font-family: "Lucida Console", "Courier New", monospace;
+  }
+  
+  .services-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  
+  /* Individual service item */
+  .service-item {
+    background-color: #363636;
+    padding: 2rem;
+    width: 300px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    opacity: 0;
+    transform: translateY(50px);
+    animation: fadeInUp 0.8s forwards ease-in-out;
+  }
+  
+  /* Hover effect for service item */
+  .service-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Image styling inside service item */
+  .service-item img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    border-radius: 20%;
+    transition: transform 0.3s ease;
+  }
+  
+  .service-item img:hover {
+    transform: scale(1.1); /* Enlarge image on hover */
+  }
+  
+  /* Service title */
+  .service-item h3 {
+    font-size: 1.5rem;
+    color: #2C6E49; /* Primary Color */
+    margin-bottom: 0.5rem;
+    font-family: "Lucida Console", "Courier New", monospace;
+  }
+  
+  /* Service description */
+  .service-item p {
+    font-size: 1rem;
+    color: white; /* Dark Brown Text Color */
+    line-height: 1.6;
+    font-family: "Lucida Console", "Courier New", monospace;
+  }
+  
+  /* Keyframe animations */
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes fadeInDown {
+    0% {
+      opacity: 0;
+      transform: translateY(-50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

@@ -1,0 +1,71 @@
+.about-body{
+    background-color: black;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+.about-modern {
+    background-color: black; 
+    padding: 5rem 3rem;
+    position: relative;
+    border-bottom: 8px solid ; 
+  }
+  .about-image img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 40%;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  .about-content {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .about-image img:hover {
+    transform: scale(1.07);
+  }
+  
+  
+  .about-image img:hover {
+    transform: scale(1.07);
+  }
+  
+  .about-text {
+    max-width: 600px;
+    margin-left: 2rem;
+    text-align: justify;
+  }
+  
+  .about-text h2 {
+    font-size: 2.5rem;
+    color: #308D46; /* Primary Color: Forest Green */
+    font-family: "Lucida Console", "Courier New", monospace;
+  }
+  
+  .about-text p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin: 1rem 0;
+    color: #e1fcfd; /* Text Color: Dark Brown */
+    font-family: "Lucida Console", "Courier New", monospace;
+  }
+  
+  .resume-link {
+    display: inline-block;
+    margin-top: 1.5rem;
+    background-color: #ff6a3d; /* Accent Color: Warm Orange */
+    color:#fff ;
+    padding: 0.8rem 1.5rem;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+    font-family: "Lucida Console", "Courier New", monospace;
+  }
+  
+  .resume-link:hover {
+    background-color: #d97924; /* Darker shade of Warm Orange */
+  }
