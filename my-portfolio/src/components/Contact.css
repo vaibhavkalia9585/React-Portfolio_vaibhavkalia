@@ -1,4 +1,4 @@
-/* Smooth transition for the contact page */
+
 .contact-body {
     background-color: black;
     min-height: 100vh;
@@ -6,18 +6,18 @@
     justify-content: center;
     align-items: center;
     opacity: 0;
-    transform: translateY(50px); /* Start from below */
-    transition: opacity 1s ease, transform 1s ease; /* Smooth transition */
+    transform: translateY(50px); 
+    transition: opacity 1s ease, transform 1s ease; 
   }
   
-  /* This class is added after the page loads */
+  
   .fade-in {
     opacity: 1;
-    transform: translateY(0); /* Bring it back to its original position */
+    transform: translateY(0); 
   }
   
   .contact-container {
-    background-color: #363636; /* Grey background for the form */
+    background-color: #363636; 
     text-align: center;
     border-radius: 10px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
@@ -29,14 +29,14 @@
   .contact-info {
     margin-bottom: 2rem;
     font-size: 1.2rem;
-    color: white; /* White text color */
+    color: white; 
     font-family: "Lucida Console", "Courier New", monospace;
   }
   
   form {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Center the form elements */
+    align-items: center; 
   }
   
   form input,
@@ -54,12 +54,12 @@
   }
   
   form textarea:focus {
-    border: 1px solid #F28C28; /* Accent Color: Warm Orange */
+    border: 1px solid #F28C28; 
     outline: none;
   }
   
   form button {
-    background-color: #F28C28; /* Accent Color */
+    background-color: #F28C28; 
     color: white;
     padding: 0.75rem 1.5rem;
     border: none;
@@ -67,12 +67,12 @@
     cursor: pointer;
     font-size: 1rem;
     transition: background-color 0.3s, transform 0.2s;
-    margin-top: 1rem; /* Add margin above the button */
-    align-self: center; /* Center the button within the form */
+    margin-top: 1rem; 
+    align-self: center; 
   }
   
   form button:hover {
-    background-color: #d97924; /* Darker Orange */
+    background-color: #d97924; 
     transform: translateY(-2px);
   }
   

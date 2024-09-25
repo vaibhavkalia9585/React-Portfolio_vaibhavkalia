@@ -1,14 +1,14 @@
-/* Services Page Styling */
+
 .services-container {
     text-align: center;
     padding: 4rem 2rem;
-    background-color: black; /* Secondary color: Beige */
+    background-color: black; 
     font-family: "Lucida Console", "Courier New", monospace;
   }
   
   .services-container h2 {
     font-size: 2.5rem;
-    color: #2C6E49; /* Primary color: Forest Green */
+    color: #2C6E49; 
     margin-bottom: 3rem;
     animation: fadeInDown 1s ease-out;
     font-family: "Lucida Console", "Courier New", monospace;
@@ -21,7 +21,7 @@
     gap: 2rem;
   }
   
-  /* Individual service item */
+  
   .service-item {
     background-color: #363636;
     padding: 2rem;
@@ -34,13 +34,13 @@
     animation: fadeInUp 0.8s forwards ease-in-out;
   }
   
-  /* Hover effect for service item */
+  
   .service-item:hover {
     transform: translateY(-10px);
     box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
   }
   
-  /* Image styling inside service item */
+  
   .service-item img {
     width: 200px;
     height: 200px;
@@ -51,26 +51,26 @@
   }
   
   .service-item img:hover {
-    transform: scale(1.1); /* Enlarge image on hover */
+    transform: scale(1.1); 
   }
   
-  /* Service title */
+  
   .service-item h3 {
     font-size: 1.5rem;
-    color: #2C6E49; /* Primary Color */
+    color: #2C6E49; 
     margin-bottom: 0.5rem;
     font-family: "Lucida Console", "Courier New", monospace;
   }
   
-  /* Service description */
+  
   .service-item p {
     font-size: 1rem;
-    color: white; /* Dark Brown Text Color */
+    color: white; 
     line-height: 1.6;
     font-family: "Lucida Console", "Courier New", monospace;
   }
   
-  /* Keyframe animations */
+  
   @keyframes fadeInUp {
     0% {
       opacity: 0;

@@ -1,7 +1,7 @@
 .home {
     text-align: center;
     padding: 4rem 2rem;
-    background-color: black; /* Optional background color */
+    background-color: black; 
     font-family: "Lucida Console", "Courier New", monospace;
     font-size: medium;
   }
@@ -12,12 +12,12 @@
   
   .home-header h1 {
     font-size: 3rem;
-    color: white; /* Primary Color: Forest Green */
+    color: white; 
   }
   
   .mission-statement {
     font-size: 1.5rem;
-    color: white; /* Text Color: Dark Brown */
+    color: white; 
     margin: 1rem 0;
   }
   
@@ -25,37 +25,37 @@
     display: flex;
     
     justify-content: space-between;
-    align-items: flex-start; /* Align items to the top */
+    align-items: flex-start; 
     margin: 1rem 0;
   }
   
   .skills-section {
-    flex: 0.5; /* Take up available space */
-    text-align: left; /* Left align the text */
-    padding-left:10rem; /* Add padding around the section */
-    background-color: #252B2E; /* Optional: to match the page background */
-    border-radius: 8px; /* Optional: rounded corners */
+    flex: 0.5; 
+    text-align: left; 
+    padding-left:10rem; 
+    background-color: #252B2E; 
+    border-radius: 8px; 
   }
   
   
   .skills-section h2 {
     font-size: 2rem;
-    color: white; /* Primary Color */
+    color: white; 
   }
   
   .skills-list {
-    list-style-type: none; /* Remove bullets */
+    list-style-type: none; 
     padding: 0;
   }
   
   .skills-list li {
     font-size: 1.2rem;
-    color: white; /* Text Color */
+    color: white; 
     margin: 0.5rem 0;
   }
   
   .images-section {
-    flex: 1; /* Take up available space */
+    flex: 1; 
     display: flex;
     justify-content: center; 
     
@@ -68,7 +68,7 @@
   .contact-button {
     display: inline-block;
     margin-top: 1.5rem;
-    background-color: #308d46; /* Accent Color: Warm Orange */
+    background-color: #308d46; 
     color: white;
     padding: 0.8rem 1.5rem;
     text-decoration: none;
@@ -78,19 +78,19 @@
   }
   
   .contact-button:hover {
-    background-color: greenyellow; /* Darker shade of Warm Orange */
+    background-color: greenyellow; 
   }
   .skill-image {
     width: 300px; 
     height: auto; 
     margin-left: 40px; 
     margin-top: 5rem;
-    border-radius: 8px; /* Rounding the edges */
-    transition: transform 0.3s; /* Smooth transition for hover effect */
+    border-radius: 8px; 
+    transition: transform 0.3s; 
   }
   
   .skill-image:hover {
-    transform: scale(1.05); /* Slight zoom effect on hover */
+    transform: scale(1.05); 
   }
   @keyframes fadeIn {
     from {
@@ -117,7 +117,7 @@
   }
   
   .skills-section {
-    animation: fadeIn 1.5s ease-in-out; /* Adjust timing for different sections */
+    animation: fadeIn 1.5s ease-in-out; 
   }
   
   .images-section {
@@ -126,30 +126,30 @@
   
   .skills-list li {
     font-size: 1.2rem;
-    color: white; /* Text Color */
+    color: white; 
     margin: 0.5rem 0;
-    transition: transform 0.3s; /* Smooth transform on hover */
+    transition: transform 0.3s; 
   }
   
   .skills-list li:hover {
-    transform: scale(1.05); /* Slightly increase size on hover */
-    color: purple; /* Change color on hover */
+    transform: scale(1.05); 
+    color: purple; 
   }
   
   .contact-button {
     display: inline-block;
     margin-top: 1.5rem;
-    background-color:#308d46 ; /* Accent Color: Warm Orange */
+    background-color:#308d46 ;
     color: white;
     padding: 0.8rem 1.5rem;
     text-decoration: none;
     border-radius: 25px;
     font-size: 1rem;
-    transition: background-color 0.3s, transform 0.3s; /* Include transform */
+    transition: background-color 0.3s, transform 0.3s; 
   }
   
   .contact-button:hover {
-    background-color: greenyellow; /* Darker shade of Warm Orange */
-    transform: scale(1.05); /* Slightly increase size on hover */
+    background-color: greenyellow; 
+    transform: scale(1.05); 
   }
   
