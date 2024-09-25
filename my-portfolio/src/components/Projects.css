@@ -1,0 +1,46 @@
+.projects-container {
+    text-align: center;
+    padding: 2rem;
+    background-color: black; /* Background color */
+    color: white; /* Set text color to white */
+  }
+  
+  .projects-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+  }
+  
+  .project-item {
+    background-color: #363636; /* Item background color */
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin: 1rem;
+    padding: 1rem;
+    width: 300px; /* Set a fixed width for project items */
+    transition: transform 0.3s;
+  }
+  
+  .project-item:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+  }
+  
+  .project-image {
+    width: 100%; /* Full width */
+    height: 200px; /* Maintain aspect ratio */
+    border-radius: 4px;
+  }
+  
+  /* Set project item text color to white */
+   
+  .project-item p {
+    color: white; /* Text color for project title and description */
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-align: justify;
+  }
+  .project-item h2{
+    color: #308d46 ;
+    font-family: "Lucida Console", "Courier New", monospace;
+  }
+  
