@@ -14,7 +14,6 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="navbar-container">
       <Link to="/" className="navbar-logo">
-      
         <img src={`${process.env.PUBLIC_URL}/images/logo.jpg`} alt="Vaibhav Kalia Logo" className="logo-image" /> Vaibhav Kalia
       </Link>
         

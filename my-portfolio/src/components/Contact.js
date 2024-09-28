@@ -19,7 +19,6 @@ const Contact = () => {
           <p>Email: ivaibhavkalia@gmail.com</p>
           <p>Phone: +1(289)395-2714</p>
         </div>
-        /* here is the code written for the form */
         <form>
           <input type="text" placeholder="Your Name" required />
           <input type="email" placeholder="Your Email" required />
