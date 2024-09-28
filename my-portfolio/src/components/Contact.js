@@ -9,7 +9,6 @@ const Contact = () => {
   const [isLoaded, setIsLoaded] = useState(false);
 
   useEffect(() => {
-    // Trigger the transition after the component is mounted
     setIsLoaded(true);
   }, []);
 
@@ -20,12 +19,14 @@ const Contact = () => {
           <p>Email: ivaibhavkalia@gmail.com</p>
           <p>Phone: +1(289)395-2714</p>
         </div>
+        /* here is the code written for the form */
         <form>
           <input type="text" placeholder="Your Name" required />
           <input type="email" placeholder="Your Email" required />
           <input type="text" placeholder="Your phone number" required />
           <textarea placeholder="Your Message" required></textarea>
           <button type="submit">Send</button>
+          
         </form>
       </div>
     </div>
